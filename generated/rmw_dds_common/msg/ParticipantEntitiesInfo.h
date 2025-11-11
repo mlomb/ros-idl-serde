@@ -74,7 +74,7 @@ namespace rmw_dds_common {
         class ParticipantEntitiesInfo
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rmw_dds_common/msg/ParticipantEntitiesInfo
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -131,7 +131,7 @@ module rmw_dds_common {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

@@ -76,7 +76,7 @@ namespace rcl_interfaces {
         class ListParameters_Request
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rcl_interfaces/srv/ListParameters
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -133,7 +133,7 @@ module rcl_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -302,7 +302,7 @@ module rcl_interfaces {
         class ListParameters_Response
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rcl_interfaces/srv/ListParameters
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -359,7 +359,7 @@ module rcl_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

@@ -72,7 +72,7 @@ namespace composition_interfaces {
         class UnloadNode_Request
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: composition_interfaces/srv/UnloadNode
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -99,7 +99,7 @@ module composition_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -242,7 +242,7 @@ module composition_interfaces {
         class UnloadNode_Response
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: composition_interfaces/srv/UnloadNode
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -269,7 +269,7 @@ module composition_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

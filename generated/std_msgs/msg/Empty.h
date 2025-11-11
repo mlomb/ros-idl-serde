@@ -72,7 +72,7 @@ namespace std_msgs {
         class Empty
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: std_msgs/msg/Empty
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -88,7 +88,7 @@ module std_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

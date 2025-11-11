@@ -81,7 +81,7 @@ namespace tf2_msgs {
         class TF2Error
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/msg/TF2Error
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -108,7 +108,7 @@ module tf2_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

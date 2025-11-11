@@ -72,7 +72,7 @@ namespace diagnostic_msgs {
         class AddDiagnostics_Request
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: diagnostic_msgs/srv/AddDiagnostics
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -117,7 +117,7 @@ module diagnostic_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -266,7 +266,7 @@ module diagnostic_msgs {
         class AddDiagnostics_Response
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: diagnostic_msgs/srv/AddDiagnostics
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -311,7 +311,7 @@ module diagnostic_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

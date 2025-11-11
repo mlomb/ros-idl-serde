@@ -96,7 +96,7 @@ namespace sensor_msgs {
         class BatteryState
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: sensor_msgs/msg/BatteryState
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -257,7 +257,7 @@ module builtin_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

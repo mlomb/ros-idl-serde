@@ -72,7 +72,7 @@ namespace tf2_msgs {
         class FrameGraph_Request
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/srv/FrameGraph
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -91,7 +91,7 @@ module tf2_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -234,7 +234,7 @@ module tf2_msgs {
         class FrameGraph_Response
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/srv/FrameGraph
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -253,7 +253,7 @@ module tf2_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

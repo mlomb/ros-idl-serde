@@ -72,7 +72,7 @@ namespace rcl_interfaces {
         class SetParametersResult
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rcl_interfaces/msg/SetParametersResult
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -96,7 +96,7 @@ module rcl_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

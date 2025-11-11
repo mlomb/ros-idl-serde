@@ -72,7 +72,7 @@ namespace sensor_msgs {
         class RegionOfInterest
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: sensor_msgs/msg/RegionOfInterest
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -118,7 +118,7 @@ module sensor_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

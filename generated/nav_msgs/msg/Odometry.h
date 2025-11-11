@@ -75,7 +75,7 @@ namespace nav_msgs {
         class Odometry
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: nav_msgs/msg/Odometry
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -331,7 +331,7 @@ module builtin_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

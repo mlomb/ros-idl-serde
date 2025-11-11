@@ -74,7 +74,7 @@ namespace trajectory_msgs {
         class MultiDOFJointTrajectory
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: trajectory_msgs/msg/MultiDOFJointTrajectory
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -308,7 +308,7 @@ module geometry_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

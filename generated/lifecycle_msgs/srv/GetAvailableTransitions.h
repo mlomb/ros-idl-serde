@@ -73,7 +73,7 @@ namespace lifecycle_msgs {
         class GetAvailableTransitions_Request
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: lifecycle_msgs/srv/GetAvailableTransitions
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -265,7 +265,7 @@ module lifecycle_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -408,7 +408,7 @@ module lifecycle_msgs {
         class GetAvailableTransitions_Response
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: lifecycle_msgs/srv/GetAvailableTransitions
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -600,7 +600,7 @@ module lifecycle_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

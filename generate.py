@@ -96,7 +96,7 @@ for i, idl_file in enumerate(idl_files):
         with open(dst_base + ".h", "r") as f:
             content = f.read()
         with open(dst_base + ".h", "w") as f:
-            f.write(content.replace("public:", f"public:\nstatic constexpr std::string_view MCAP_SCHEMA = R\"({mcap_schema})\";"))
+            f.write(content.replace("public:", f"public:\nstatic constexpr std::string_view MCAP_SCHEMA = R\"mcap_schema({mcap_schema})mcap_schema\";"))
 
         print(f"[{i+1}/{len(idl_files)}] Generated {basename}")
     except Exception as e:

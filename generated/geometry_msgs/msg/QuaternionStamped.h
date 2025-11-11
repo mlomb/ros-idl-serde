@@ -74,7 +74,7 @@ namespace geometry_msgs {
         class QuaternionStamped
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: geometry_msgs/msg/QuaternionStamped
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -176,7 +176,7 @@ module builtin_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

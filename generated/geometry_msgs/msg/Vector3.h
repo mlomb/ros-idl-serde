@@ -72,7 +72,7 @@ namespace geometry_msgs {
         class Vector3
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: geometry_msgs/msg/Vector3
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -98,7 +98,7 @@ module geometry_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

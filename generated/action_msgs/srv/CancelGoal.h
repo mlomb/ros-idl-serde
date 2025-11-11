@@ -73,7 +73,7 @@ namespace action_msgs {
         class CancelGoal_Request
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: action_msgs/srv/CancelGoal
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -198,7 +198,7 @@ module unique_identifier_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -353,7 +353,7 @@ module unique_identifier_msgs {
         class CancelGoal_Response
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: action_msgs/srv/CancelGoal
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -478,7 +478,7 @@ module unique_identifier_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

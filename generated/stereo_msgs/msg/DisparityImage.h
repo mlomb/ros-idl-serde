@@ -74,7 +74,7 @@ namespace stereo_msgs {
         class DisparityImage
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: stereo_msgs/msg/DisparityImage
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -286,7 +286,7 @@ module sensor_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

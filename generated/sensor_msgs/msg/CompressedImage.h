@@ -73,7 +73,7 @@ namespace sensor_msgs {
         class CompressedImage
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: sensor_msgs/msg/CompressedImage
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -162,7 +162,7 @@ module builtin_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

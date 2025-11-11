@@ -76,7 +76,7 @@ namespace tf2_msgs {
         class LookupTransform_Goal
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/action/LookupTransform
 
 // generated from rosidl_adapter/resource/action.idl.em
@@ -339,7 +339,7 @@ module tf2_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -638,7 +638,7 @@ module tf2_msgs {
         class LookupTransform_Result
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/action/LookupTransform
 
 // generated from rosidl_adapter/resource/action.idl.em
@@ -901,7 +901,7 @@ module tf2_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -1076,7 +1076,7 @@ module tf2_msgs {
         class LookupTransform_Feedback
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/action/LookupTransform
 
 // generated from rosidl_adapter/resource/action.idl.em
@@ -1339,7 +1339,7 @@ module tf2_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

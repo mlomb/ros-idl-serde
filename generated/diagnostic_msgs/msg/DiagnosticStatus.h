@@ -79,7 +79,7 @@ namespace diagnostic_msgs {
         class DiagnosticStatus
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: diagnostic_msgs/msg/DiagnosticStatus
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -145,7 +145,7 @@ module diagnostic_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

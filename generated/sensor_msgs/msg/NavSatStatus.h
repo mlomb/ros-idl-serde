@@ -82,7 +82,7 @@ namespace sensor_msgs {
         class NavSatStatus
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: sensor_msgs/msg/NavSatStatus
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -128,7 +128,7 @@ module sensor_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

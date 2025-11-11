@@ -72,7 +72,7 @@ namespace geometry_msgs {
         class Point32
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: geometry_msgs/msg/Point32
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -100,7 +100,7 @@ module geometry_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

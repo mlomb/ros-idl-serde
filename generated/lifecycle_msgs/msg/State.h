@@ -85,7 +85,7 @@ namespace lifecycle_msgs {
         class State
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: lifecycle_msgs/msg/State
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -145,7 +145,7 @@ module lifecycle_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

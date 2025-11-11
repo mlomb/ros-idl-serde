@@ -73,7 +73,7 @@ namespace rmw_dds_common {
         class Gid
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rmw_dds_common/msg/Gid
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -90,7 +90,7 @@ module rmw_dds_common {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

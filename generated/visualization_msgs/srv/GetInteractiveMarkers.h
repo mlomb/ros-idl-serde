@@ -73,7 +73,7 @@ namespace visualization_msgs {
         class GetInteractiveMarkers_Request
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: visualization_msgs/srv/GetInteractiveMarkers
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -713,7 +713,7 @@ module visualization_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -856,7 +856,7 @@ module visualization_msgs {
         class GetInteractiveMarkers_Response
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: visualization_msgs/srv/GetInteractiveMarkers
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -1496,7 +1496,7 @@ module visualization_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

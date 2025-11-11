@@ -78,7 +78,7 @@ namespace visualization_msgs {
         class InteractiveMarkerUpdate
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: visualization_msgs/msg/InteractiveMarkerUpdate
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -763,7 +763,7 @@ module visualization_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

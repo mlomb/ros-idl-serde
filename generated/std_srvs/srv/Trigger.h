@@ -72,7 +72,7 @@ namespace std_srvs {
         class Trigger_Request
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: std_srvs/srv/Trigger
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -97,7 +97,7 @@ module std_srvs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -240,7 +240,7 @@ module std_srvs {
         class Trigger_Response
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: std_srvs/srv/Trigger
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -265,7 +265,7 @@ module std_srvs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

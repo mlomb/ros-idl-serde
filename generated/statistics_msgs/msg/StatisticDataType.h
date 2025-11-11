@@ -80,7 +80,7 @@ namespace statistics_msgs {
         class StatisticDataType
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: statistics_msgs/msg/StatisticDataType
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -114,7 +114,7 @@ module statistics_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

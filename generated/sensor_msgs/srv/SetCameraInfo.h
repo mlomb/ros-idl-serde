@@ -73,7 +73,7 @@ namespace sensor_msgs {
         class SetCameraInfo_Request
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: sensor_msgs/srv/SetCameraInfo
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -363,7 +363,7 @@ module builtin_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
@@ -512,7 +512,7 @@ module builtin_interfaces {
         class SetCameraInfo_Response
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: sensor_msgs/srv/SetCameraInfo
 
 // generated from rosidl_adapter/resource/srv.idl.em
@@ -802,7 +802,7 @@ module builtin_interfaces {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.

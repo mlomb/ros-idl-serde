@@ -74,7 +74,7 @@ namespace sensor_msgs {
         class TimeReference
         {
         public:
-static constexpr std::string_view MCAP_SCHEMA = R"(================================================================================
+static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: sensor_msgs/msg/TimeReference
 
 // generated from rosidl_adapter/resource/msg.idl.em
@@ -157,7 +157,7 @@ module std_msgs {
   };
 };
 
-)";
+)mcap_schema";
 
             /*!
              * @brief Default constructor.
