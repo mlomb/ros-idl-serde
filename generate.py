@@ -1,3 +1,4 @@
+import re
 import subprocess
 import os
 import shutil
@@ -68,7 +69,37 @@ for i, idl_file in enumerate(idl_files):
             src = os.path.join("/tmp", f"{name}.{extension}")
             dst = os.path.join("/out", f"{dst_base}.{extension}")
             shutil.copy(src, dst)
+        
+        visited = []
+
+        def collect_includes(file_path):
+            if file_path in visited:
+                return
+            visited.append(file_path)
+            for m in re.finditer(r'#include\s+"([^"]+)"', open(file_path).read()):
+                collect_includes(BASE_ROS_DIR + m.group(1))
+        
+        # recursively collect all included IDL files from this one
+        collect_includes(idl_file)
+
+        # build MCAP schema
+        # see https://mcap.dev/spec/registry#ros2idl
+        mcap_schema = ""
+        for f in visited:
+            content = open(f).read()
+            incl_basename = f.replace(BASE_ROS_DIR, "").replace(".idl", "")
+            content = content.replace("#pragma once", "")
+            content = re.sub(r'^#include.*\n', '', content, flags=re.MULTILINE)
+            mcap_schema += "=" * 80 + f"\nIDL: {incl_basename}\n" + content + "\n"
+
+        # insert after the line "public:" in the .h file
+        with open(dst_base + ".h", "r") as f:
+            content = f.read()
+        with open(dst_base + ".h", "w") as f:
+            f.write(content.replace("public:", f"public:\nstatic constexpr std::string_view MCAP_SCHEMA = R\"({mcap_schema})\";"))
 
         print(f"[{i+1}/{len(idl_files)}] Generated {basename}")
     except Exception as e:
         print(f"[{i+1}/{len(idl_files)}] Error generating {basename}: {e}")
+
+print("Done")
