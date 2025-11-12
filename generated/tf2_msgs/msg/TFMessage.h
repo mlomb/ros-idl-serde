@@ -73,6 +73,7 @@ namespace tf2_msgs {
         class TFMessage
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "tf2_msgs/msg/TFMessage";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/msg/TFMessage
 

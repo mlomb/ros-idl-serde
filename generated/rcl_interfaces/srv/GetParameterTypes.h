@@ -72,6 +72,7 @@ namespace rcl_interfaces {
         class GetParameterTypes_Request
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "rcl_interfaces/srv/GetParameterTypes";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rcl_interfaces/srv/GetParameterTypes
 
@@ -248,6 +249,7 @@ module rcl_interfaces {
         class GetParameterTypes_Response
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "rcl_interfaces/srv/GetParameterTypes";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rcl_interfaces/srv/GetParameterTypes
 

@@ -73,6 +73,7 @@ namespace visualization_msgs {
         class GetInteractiveMarkers_Request
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "visualization_msgs/srv/GetInteractiveMarkers";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: visualization_msgs/srv/GetInteractiveMarkers
 
@@ -856,6 +857,7 @@ module visualization_msgs {
         class GetInteractiveMarkers_Response
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "visualization_msgs/srv/GetInteractiveMarkers";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: visualization_msgs/srv/GetInteractiveMarkers
 

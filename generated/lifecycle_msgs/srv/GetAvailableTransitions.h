@@ -73,6 +73,7 @@ namespace lifecycle_msgs {
         class GetAvailableTransitions_Request
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "lifecycle_msgs/srv/GetAvailableTransitions";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: lifecycle_msgs/srv/GetAvailableTransitions
 
@@ -408,6 +409,7 @@ module lifecycle_msgs {
         class GetAvailableTransitions_Response
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "lifecycle_msgs/srv/GetAvailableTransitions";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: lifecycle_msgs/srv/GetAvailableTransitions
 

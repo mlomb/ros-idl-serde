@@ -73,6 +73,7 @@ namespace action_msgs {
         class GoalStatusArray
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "action_msgs/msg/GoalStatusArray";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: action_msgs/msg/GoalStatusArray
 

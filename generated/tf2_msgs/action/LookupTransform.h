@@ -76,6 +76,7 @@ namespace tf2_msgs {
         class LookupTransform_Goal
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "tf2_msgs/action/LookupTransform";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/action/LookupTransform
 
@@ -638,6 +639,7 @@ module tf2_msgs {
         class LookupTransform_Result
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "tf2_msgs/action/LookupTransform";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/action/LookupTransform
 
@@ -1076,6 +1078,7 @@ module tf2_msgs {
         class LookupTransform_Feedback
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "tf2_msgs/action/LookupTransform";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/action/LookupTransform
 

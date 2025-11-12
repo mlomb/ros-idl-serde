@@ -73,6 +73,7 @@ namespace lifecycle_msgs {
         class GetAvailableStates_Request
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "lifecycle_msgs/srv/GetAvailableStates";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: lifecycle_msgs/srv/GetAvailableStates
 
@@ -297,6 +298,7 @@ module lifecycle_msgs {
         class GetAvailableStates_Response
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "lifecycle_msgs/srv/GetAvailableStates";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: lifecycle_msgs/srv/GetAvailableStates
 

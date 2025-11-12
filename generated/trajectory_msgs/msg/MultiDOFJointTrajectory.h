@@ -74,6 +74,7 @@ namespace trajectory_msgs {
         class MultiDOFJointTrajectory
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "trajectory_msgs/msg/MultiDOFJointTrajectory";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: trajectory_msgs/msg/MultiDOFJointTrajectory
 

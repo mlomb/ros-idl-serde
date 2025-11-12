@@ -74,6 +74,7 @@ namespace rcl_interfaces {
         class ParameterDescriptor
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "rcl_interfaces/msg/ParameterDescriptor";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rcl_interfaces/msg/ParameterDescriptor
 

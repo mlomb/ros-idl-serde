@@ -83,6 +83,7 @@ namespace visualization_msgs {
         class InteractiveMarkerFeedback
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "visualization_msgs/msg/InteractiveMarkerFeedback";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: visualization_msgs/msg/InteractiveMarkerFeedback
 

@@ -72,6 +72,7 @@ namespace builtin_interfaces {
         class Duration
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "builtin_interfaces/msg/Duration";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: builtin_interfaces/msg/Duration
 

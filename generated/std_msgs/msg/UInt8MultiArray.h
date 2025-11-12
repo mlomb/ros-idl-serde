@@ -73,6 +73,7 @@ namespace std_msgs {
         class UInt8MultiArray
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "std_msgs/msg/UInt8MultiArray";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: std_msgs/msg/UInt8MultiArray
 

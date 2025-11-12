@@ -74,6 +74,7 @@ namespace nav_msgs {
         class OccupancyGrid
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "nav_msgs/msg/OccupancyGrid";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: nav_msgs/msg/OccupancyGrid
 

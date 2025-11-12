@@ -74,6 +74,7 @@ namespace rcl_interfaces {
         class SetParametersAtomically_Request
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "rcl_interfaces/srv/SetParametersAtomically";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rcl_interfaces/srv/SetParametersAtomically
 
@@ -360,6 +361,7 @@ module rcl_interfaces {
         class SetParametersAtomically_Response
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "rcl_interfaces/srv/SetParametersAtomically";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rcl_interfaces/srv/SetParametersAtomically
 

@@ -74,6 +74,7 @@ namespace lifecycle_msgs {
         class TransitionDescription
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "lifecycle_msgs/msg/TransitionDescription";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: lifecycle_msgs/msg/TransitionDescription
 

@@ -73,6 +73,7 @@ namespace rcl_interfaces {
         class DescribeParameters_Request
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "rcl_interfaces/srv/DescribeParameters";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rcl_interfaces/srv/DescribeParameters
 
@@ -394,6 +395,7 @@ module rcl_interfaces {
         class DescribeParameters_Response
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "rcl_interfaces/srv/DescribeParameters";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rcl_interfaces/srv/DescribeParameters
 

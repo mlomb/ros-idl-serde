@@ -73,6 +73,7 @@ namespace unique_identifier_msgs {
         class UUID
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "unique_identifier_msgs/msg/UUID";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: unique_identifier_msgs/msg/UUID
 

@@ -73,6 +73,7 @@ namespace rmw_dds_common {
         class Gid
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "rmw_dds_common/msg/Gid";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rmw_dds_common/msg/Gid
 

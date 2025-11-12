@@ -85,6 +85,7 @@ namespace lifecycle_msgs {
         class State
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "lifecycle_msgs/msg/State";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: lifecycle_msgs/msg/State
 

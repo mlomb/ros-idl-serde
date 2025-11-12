@@ -73,6 +73,7 @@ namespace geometry_msgs {
         class Wrench
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "geometry_msgs/msg/Wrench";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: geometry_msgs/msg/Wrench
 

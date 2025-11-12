@@ -75,6 +75,7 @@ namespace sensor_msgs {
         class PointCloud
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "sensor_msgs/msg/PointCloud";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: sensor_msgs/msg/PointCloud
 

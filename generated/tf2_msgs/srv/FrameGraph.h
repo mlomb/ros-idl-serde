@@ -72,6 +72,7 @@ namespace tf2_msgs {
         class FrameGraph_Request
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "tf2_msgs/srv/FrameGraph";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/srv/FrameGraph
 
@@ -234,6 +235,7 @@ module tf2_msgs {
         class FrameGraph_Response
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "tf2_msgs/srv/FrameGraph";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/srv/FrameGraph
 

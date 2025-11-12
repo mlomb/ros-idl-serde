@@ -72,6 +72,7 @@ namespace geometry_msgs {
         class Pose2D
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "geometry_msgs/msg/Pose2D";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: geometry_msgs/msg/Pose2D
 

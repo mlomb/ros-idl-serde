@@ -74,6 +74,7 @@ namespace rmw_dds_common {
         class ParticipantEntitiesInfo
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "rmw_dds_common/msg/ParticipantEntitiesInfo";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: rmw_dds_common/msg/ParticipantEntitiesInfo
 

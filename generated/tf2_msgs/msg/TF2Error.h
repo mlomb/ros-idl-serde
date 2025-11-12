@@ -81,6 +81,7 @@ namespace tf2_msgs {
         class TF2Error
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "tf2_msgs/msg/TF2Error";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: tf2_msgs/msg/TF2Error
 

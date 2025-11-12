@@ -73,6 +73,7 @@ namespace diagnostic_msgs {
         class SelfTest_Request
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "diagnostic_msgs/srv/SelfTest";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: diagnostic_msgs/srv/SelfTest
 
@@ -305,6 +306,7 @@ module diagnostic_msgs {
         class SelfTest_Response
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "diagnostic_msgs/srv/SelfTest";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: diagnostic_msgs/srv/SelfTest
 

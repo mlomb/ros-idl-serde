@@ -72,6 +72,7 @@ namespace visualization_msgs {
         class UVCoordinate
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "visualization_msgs/msg/UVCoordinate";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: visualization_msgs/msg/UVCoordinate
 

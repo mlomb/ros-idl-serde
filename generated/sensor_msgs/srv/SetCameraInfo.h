@@ -73,6 +73,7 @@ namespace sensor_msgs {
         class SetCameraInfo_Request
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "sensor_msgs/srv/SetCameraInfo";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: sensor_msgs/srv/SetCameraInfo
 
@@ -512,6 +513,7 @@ module builtin_interfaces {
         class SetCameraInfo_Response
         {
         public:
+static constexpr std::string_view PACKAGE_RESOURCE_NAME = "sensor_msgs/srv/SetCameraInfo";
 static constexpr std::string_view MCAP_SCHEMA = R"mcap_schema(================================================================================
 IDL: sensor_msgs/srv/SetCameraInfo
 
