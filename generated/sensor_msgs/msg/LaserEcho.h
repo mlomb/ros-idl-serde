@@ -96,6 +96,13 @@ module sensor_msgs {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(# This message is a submessage of MultiEchoLaserScan and is not intended
+# to be used separately.
+
+float32[] echoes  # Multiple values of ranges or intensities.
+                  # Each array represents data from the same angle increment.
+
+)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.

@@ -95,6 +95,12 @@ module visualization_msgs {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(# Location of the pixel as a ratio of the width of a 2D texture.
+# Values should be in range: [0.0-1.0].
+float32 u
+float32 v
+
+)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.

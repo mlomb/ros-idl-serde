@@ -84,13 +84,20 @@ for i, idl_file in enumerate(idl_files):
 
         # build MCAP schema
         # see https://mcap.dev/spec/registry#ros2idl
-        mcap_schema = ""
+        mcap_idl_schema = ""
         for f in visited:
             content = open(f).read()
             incl_basename = f.replace(BASE_ROS_DIR, "").replace(".idl", "")
             content = content.replace("#pragma once", "")
             content = re.sub(r'^#include.*\n', '', content, flags=re.MULTILINE)
-            mcap_schema += "=" * 80 + f"\nIDL: {incl_basename}\n" + content + "\n"
+            mcap_idl_schema += "=" * 80 + f"\nIDL: {incl_basename}\n" + content + "\n"
+        
+        # TODO: generate ourselves
+        # copy schema from /ros-typescript/rosmsg-msgs-common/msgdefs/ros2humble
+        try:
+            mcap_msg_schema = open("/ros-typescript/packages/rosmsg-msgs-common/msgdefs/ros2humble/" + basename + ".msg").read()
+        except FileNotFoundError:
+            mcap_msg_schema = "<unavailable>"
 
         # insert after the line "public:" in the .h file
         with open(dst_base + ".h", "r") as f:
@@ -98,7 +105,7 @@ for i, idl_file in enumerate(idl_files):
         with open(dst_base + ".h", "w") as f:
             f.write(
                 content
-                    .replace("public:", f"public:\nstatic constexpr std::string_view PACKAGE_RESOURCE_NAME = \"{basename}\";\nstatic constexpr std::string_view MCAP_SCHEMA = R\"mcap_schema({mcap_schema})mcap_schema\";")
+                    .replace("public:", f"public:\nstatic constexpr std::string_view PACKAGE_RESOURCE_NAME = \"{basename}\";\nstatic constexpr std::string_view MCAP_SCHEMA = R\"mcap_schema({mcap_idl_schema})mcap_schema\";\nstatic constexpr std::string_view MCAP_MSG_SCHEMA = R\"mcap_msg_schema({mcap_msg_schema})mcap_msg_schema\";")
             )
 
         print(f"[{i+1}/{len(idl_files)}] Generated {basename}")

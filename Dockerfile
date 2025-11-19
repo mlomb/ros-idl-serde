@@ -56,6 +56,8 @@ RUN apt install -y \
 # Fixes issues with Odometry.idl, see https://github.com/eProsima/Fast-DDS-Gen/issues/52#issuecomment-1054271198
 RUN sed -i 's/double__36/doubl__36/g' /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovariance.idl
 
+RUN cd / && git clone https://github.com/foxglove/ros-typescript
+
 COPY generate.py /generate.py
 
 ENTRYPOINT ["python3", "/generate.py"]

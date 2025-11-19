@@ -129,6 +129,18 @@ module builtin_interfaces {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(
+# The stamp should store the time at which this goal was requested.
+# It is used by an action server when it tries to preempt all
+# goals that were requested before a certain time
+builtin_interfaces/Time stamp
+
+# The id provides a way to associate feedback and
+# result message with specific goal requests. The id
+# specified must be unique.
+string id
+
+)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.

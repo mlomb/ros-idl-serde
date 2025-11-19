@@ -164,6 +164,7 @@ module diagnostic_msgs {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(<unavailable>)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.
@@ -397,6 +398,7 @@ module diagnostic_msgs {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(<unavailable>)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.

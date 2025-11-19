@@ -102,6 +102,16 @@ module builtin_interfaces {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(# This message communicates ROS Time defined here:
+# https://design.ros2.org/articles/clock_and_time.html
+
+# The seconds component, valid over all int32 values.
+int32 sec
+
+# The nanoseconds component, valid in the range [0, 1e9).
+uint32 nanosec
+
+)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.

@@ -94,6 +94,11 @@ module shape_msgs {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(# Definition of a triangle's vertices.
+
+uint32[3] vertex_indices
+
+)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.

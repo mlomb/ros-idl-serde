@@ -99,6 +99,16 @@ module visualization_msgs {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(# Used to send raw mesh files.
+
+# The filename is used for both debug purposes and to provide a file extension
+# for whatever parser is used.
+string filename
+
+# This stores the raw text of the mesh file.
+uint8[] data
+
+)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.

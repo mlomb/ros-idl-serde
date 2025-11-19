@@ -97,6 +97,14 @@ module unique_identifier_msgs {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(# A universally unique identifier (UUID).
+#
+#  http://en.wikipedia.org/wiki/Universally_unique_identifier
+#  http://tools.ietf.org/html/rfc4122.html
+
+uint8[16] uuid
+
+)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.

@@ -99,6 +99,15 @@ module shape_msgs {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(# Representation of a plane, using the plane equation ax + by + cz + d = 0.
+#
+# a := coef[0]
+# b := coef[1]
+# c := coef[2]
+# d := coef[3]
+float64[4] coef
+
+)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.

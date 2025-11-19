@@ -97,6 +97,14 @@ module rcl_interfaces {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(# The resulting parameters under the given prefixes.
+string[] names
+
+# The resulting prefixes under the given prefixes.
+# TODO(wjwwood): link to prefix definition and rules.
+string[] prefixes
+
+)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.

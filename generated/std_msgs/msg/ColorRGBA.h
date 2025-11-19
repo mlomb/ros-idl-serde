@@ -96,6 +96,12 @@ module std_msgs {
 };
 
 )mcap_schema";
+static constexpr std::string_view MCAP_MSG_SCHEMA = R"mcap_msg_schema(float32 r
+float32 g
+float32 b
+float32 a
+
+)mcap_msg_schema";
 
             /*!
              * @brief Default constructor.
