@@ -23,7 +23,7 @@
 #define _FAST_DDS_GENERATED_GEOMETRY_MSGS_MSG_POINT32_H_
 
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

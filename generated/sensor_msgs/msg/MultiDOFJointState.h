@@ -27,7 +27,7 @@
 #include "geometry_msgs/msg/Transform.h"
 #include "geometry_msgs/msg/Wrench.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

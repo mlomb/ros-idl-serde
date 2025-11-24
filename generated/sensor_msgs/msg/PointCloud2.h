@@ -25,7 +25,7 @@
 #include "std_msgs/msg/Header.h"
 #include "sensor_msgs/msg/PointField.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

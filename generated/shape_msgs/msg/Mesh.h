@@ -25,7 +25,7 @@
 #include "geometry_msgs/msg/Point.h"
 #include "shape_msgs/msg/MeshTriangle.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

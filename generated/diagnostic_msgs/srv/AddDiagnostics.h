@@ -23,7 +23,7 @@
 #define _FAST_DDS_GENERATED_DIAGNOSTIC_MSGS_SRV_ADDDIAGNOSTICS_H_
 
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

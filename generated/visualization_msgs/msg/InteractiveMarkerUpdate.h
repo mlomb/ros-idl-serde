@@ -25,7 +25,7 @@
 #include "visualization_msgs/msg/InteractiveMarkerPose.h"
 #include "visualization_msgs/msg/InteractiveMarker.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

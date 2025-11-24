@@ -25,7 +25,7 @@
 #include "geometry_msgs/msg/Twist.h"
 #include "std_msgs/msg/Header.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

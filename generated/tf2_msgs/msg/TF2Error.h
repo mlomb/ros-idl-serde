@@ -23,7 +23,7 @@
 #define _FAST_DDS_GENERATED_TF2_MSGS_MSG_TF2ERROR_H_
 
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

@@ -25,7 +25,7 @@
 #include "geometry_msgs/msg/PoseStamped.h"
 #include "nav_msgs/msg/Path.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

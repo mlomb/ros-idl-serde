@@ -24,7 +24,7 @@
 
 #include "action_msgs/msg/GoalInfo.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

@@ -25,7 +25,7 @@
 #include "unique_identifier_msgs/msg/UUID.h"
 #include "builtin_interfaces/msg/Time.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

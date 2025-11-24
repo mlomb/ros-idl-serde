@@ -28,6 +28,10 @@ for i, idl_file in enumerate(idl_files):
     # std_msgs/msg/Header
     basename = idl_file.replace(BASE_ROS_DIR, "").replace(".idl", "")
 
+    if "rmw_dds_common" in basename:
+        # ignore these
+        continue
+
     # Header
     name = os.path.basename(idl_file).replace(".idl", "")
 
@@ -106,6 +110,7 @@ for i, idl_file in enumerate(idl_files):
             f.write(
                 content
                     .replace("public:", f"public:\nstatic constexpr std::string_view PACKAGE_RESOURCE_NAME = \"{basename}\";\nstatic constexpr std::string_view MCAP_SCHEMA = R\"mcap_schema({mcap_idl_schema})mcap_schema\";\nstatic constexpr std::string_view MCAP_MSG_SCHEMA = R\"mcap_msg_schema({mcap_msg_schema})mcap_msg_schema\";")
+                    .replace("#include <fastrtps/utils/fixed_size_string.hpp>", "")
             )
 
         print(f"[{i+1}/{len(idl_files)}] Generated {basename}")

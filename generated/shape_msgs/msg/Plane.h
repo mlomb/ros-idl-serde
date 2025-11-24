@@ -23,7 +23,7 @@
 #define _FAST_DDS_GENERATED_SHAPE_MSGS_MSG_PLANE_H_
 
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

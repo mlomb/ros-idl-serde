@@ -24,7 +24,7 @@
 
 #include "lifecycle_msgs/msg/Transition.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

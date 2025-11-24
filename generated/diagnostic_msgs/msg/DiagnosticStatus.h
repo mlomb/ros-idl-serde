@@ -24,7 +24,7 @@
 
 #include "diagnostic_msgs/msg/KeyValue.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

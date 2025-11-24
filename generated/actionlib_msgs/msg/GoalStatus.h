@@ -24,7 +24,7 @@
 
 #include "actionlib_msgs/msg/GoalID.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

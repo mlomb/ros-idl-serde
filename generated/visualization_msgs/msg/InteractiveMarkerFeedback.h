@@ -26,7 +26,7 @@
 #include "std_msgs/msg/Header.h"
 #include "geometry_msgs/msg/Pose.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

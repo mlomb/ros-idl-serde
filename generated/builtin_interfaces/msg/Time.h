@@ -23,7 +23,7 @@
 #define _FAST_DDS_GENERATED_BUILTIN_INTERFACES_MSG_TIME_H_
 
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

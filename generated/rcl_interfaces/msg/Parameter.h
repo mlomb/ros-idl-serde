@@ -24,7 +24,7 @@
 
 #include "rcl_interfaces/msg/ParameterValue.h"
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>

@@ -23,7 +23,7 @@
 #define _FAST_DDS_GENERATED_UNIQUE_IDENTIFIER_MSGS_MSG_UUID_H_
 
 
-#include <fastrtps/utils/fixed_size_string.hpp>
+
 
 #include <stdint.h>
 #include <array>
